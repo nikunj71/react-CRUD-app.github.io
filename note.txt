@@ -1,0 +1,17 @@
+1.node.js have addition datatype buffer and it store data in binary formate
+
+
+
+
+
+
+
+
+
+
+fs.readFileSync($ { __dirname / filepath }) => get a file
+fs.writeFileSync("filename", fiel content) => craete a new file it 's overwirte content
+fs.appendFileSync("filename", file content) => caret a new file but not overwirte+
+fs.renameFileSync("old filename","new filename")
+fs.mkdirFielSync("Foldername")
+path.dirname is use for show the file

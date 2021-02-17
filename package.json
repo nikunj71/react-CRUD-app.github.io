@@ -1,0 +1,33 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "formserver": "nodemon ./serverform.js",
+    "server_normal": "nodemon ./Server_normal.js ",
+    "server_express": "nodemon ./Server_express.js ",
+    "server": "nodemon ./Server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run formserver\" \"npm run client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "concurrently": "^5.3.0",
+    "connect-busboy": "0.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.2",
+    "express-fileupload": "^1.2.1",
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "react-router": "^5.2.0"
+  }
+}
